@@ -1,8 +1,3 @@
-# fire-fighting Weaknesses: Flying, Ground, Psychic, Water
-# Resistances: Bug, Dark, Fire, Grass, Ice, Steel
-# fire: weak = ground, water, rock | resist = bug, fire, grass, steel, ice, fairy
-# fighting: weak = psychic, flying, fairy | resist = dark, rock, bug
-
 def dual_type_chart(type1, type2):
     type3 = {
         "normal": 0,
